@@ -1,0 +1,22 @@
+{
+  "name": "aarontyler",
+  "version": "1.0.0",
+  "description": "Telegram bot",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "discord.js": "^12.3.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jquery": "^3.5.1",
+    "jsdom": "^16.4.0",
+    "node-telegram-bot-api": "^0.50.0",
+    "nodemon": "^2.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nikhil",
+  "license": "ISC"
+}

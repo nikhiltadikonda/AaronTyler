@@ -1,0 +1,8 @@
+{
+    "HELP_INFO":{
+        "TITLE":"Aaron Tyler, A Telegram - Discord Bot",
+        "DESCRIPTION":"You can control me at a time both from Telegram and Discord (for limited commands only)\n\nYou can control me using following commands:",
+        "COMMANDS":"/picture - sends you a dummy picture\n/location - sends you a dummy location, for now statue of liberty\n/keyboard - shows up a markup keyboard, I can use it for further features\n/youtube - gives a simple link as per your search query\n/github - shows all the repository (or) commits info from the <username> and <repo> you provide me\n\nHappy botting user..!"
+    },
+    "DISCORD_PREFIX" : "/"
+}
