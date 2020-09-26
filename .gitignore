@@ -1,8 +1,6 @@
-# Files Ignored
 .DS_Store
 .env
 *.exe
 
-# Directories Ignored
 node_modules/
 other/
