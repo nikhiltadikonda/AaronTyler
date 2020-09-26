@@ -1,7 +1,7 @@
 // Aaron Tyler => A Telegram - Discord Bot
 /*
 ~
-Created by Nikhil Tadikonda - September 26,2020
+By Nikhil Tadikonda - September 26,2020
 ~
 */
 
