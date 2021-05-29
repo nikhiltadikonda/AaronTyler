@@ -42,12 +42,15 @@ client.on("message", message => {
 client.on("message",message => {
   if (message.author.bot) return;
 
-  if(message.content.toLowerCase() === "who are you?"){
-    message.reply("I'm Aaron Tyler, your personalised Discord Bot.");
+  if(message.content.toLowerCase() === "intro"){
+    total_message=info.HELP_INFO.TITLE+"\n\n"+info.HELP_INFO.DESCRIPTION+"\n\n"+info.HELP_INFO.COMMANDS;
+    
+    message.reply("\n\n"+total_message);
+    bot.sendMessage(process.env.TELEGRAM_CHAT_ID, total_message);
   }
 });
 
-console.log("Bot is Active");
+console.log("Bots are Active");
 
 // start
 bot.onText(/\/start/,msg => {
@@ -59,8 +62,8 @@ bot.on('message', (msg) => {
   const chatId = msg.chat.id;  
   var fName = msg.chat.first_name;   
   if(msg.text.toLowerCase() === "who are you?" || msg.text.toLowerCase() === "hi" ){
-    const message= "I'm Aaron Tyler, your personalised Telegram Bot.";
-    bot.sendMessage(chatId, '<b>'+message+'</b>', {parse_mode: "HTML"});
+    total_message=info.HELP_INFO.TITLE+"\n\n"+info.HELP_INFO.DESCRIPTION+"\n\n"+info.HELP_INFO.COMMANDS;
+    bot.sendMessage(chatId, total_message);
   }
 });
 
