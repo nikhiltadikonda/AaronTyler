@@ -97,7 +97,6 @@ bot.on('message', (msg) => {
   }
 });
 
-
 bot.on('message', (msg) => {
   var x = msg.text.split(' ');
   var repo_url = "https://api.github.com/users/"+x[1]+"/repos";
