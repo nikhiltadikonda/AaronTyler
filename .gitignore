@@ -1,0 +1,9 @@
+.DS_Store
+.env
+*.exe
+package-lock.json
+
+node_modules/
+other/
+.config/
+.local/

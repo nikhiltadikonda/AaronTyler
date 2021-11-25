@@ -1,0 +1,22 @@
+{
+  "name": "aarontyler",
+  "version": "1.0.0",
+  "description": "A Bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikhiltadikonda/AaronTyler.git"
+  },
+  "author": "Nikhil Tadikonda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nikhiltadikonda/AaronTyler/issues"
+  },
+  "homepage": "https://github.com/nikhiltadikonda/AaronTyler#readme",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.54.0"
+  }
+}
