@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/nikhiltadikonda/AaronTyler#readme",
   "dependencies": {
+    "axios": "^0.24.0",
+    "dotenv": "^10.0.0",
     "node-telegram-bot-api": "^0.54.0"
   }
 }
